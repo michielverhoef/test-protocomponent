@@ -224,7 +224,7 @@ services:
     #volumes:
     #  - ./conf.d/:/etc/nginx/conf.d/:rw,cached
     ports:
-      - "80:80" #http port
+      - "81:80" #http port
       - "443:443" #ssl port
       - "444:444"
       - "8443:8443"
